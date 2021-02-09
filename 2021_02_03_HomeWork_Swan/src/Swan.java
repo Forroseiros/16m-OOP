@@ -10,7 +10,7 @@ public class Swan {
     String color;
     int lifeTime;
 
-    public void descriptionOfBreeds(){
+    public void descriptionOfBreeds() {
         System.out.println("Breed: " + breed);
         System.out.println("Size of wings: " + sizeOfWings);
         System.out.println("Weight of swan: " + weight);
@@ -20,7 +20,7 @@ public class Swan {
 
 }
 
-class TestSwans{
+class TestSwans {
     public static void main(String[] args) {
         Swan cygnusColumbianus = new Swan();
         Swan cygnusCygnus = new Swan();
@@ -30,7 +30,7 @@ class TestSwans{
         cygnusColumbianus.color = "White";
         cygnusColumbianus.sizeOfWings = 1.35;
         cygnusColumbianus.weight = 15.00;
-        cygnusColumbianus.lifeTime= 20;
+        cygnusColumbianus.lifeTime = 20;
         cygnusColumbianus.descriptionOfBreeds();
         System.out.println("--------------------------");
 
@@ -51,12 +51,6 @@ class TestSwans{
 
 
     }
-
-
-
-
-
-
 
 
 }
