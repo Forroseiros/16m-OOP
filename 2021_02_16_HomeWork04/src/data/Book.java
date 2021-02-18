@@ -32,6 +32,10 @@ public class Book {
         count++;
     }
 
+    class TestBook{
+
+    }
+
 
     public String toDisplay() {
         return "Название книги: " + name + "\n" +
