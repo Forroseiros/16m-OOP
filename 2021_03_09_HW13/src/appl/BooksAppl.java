@@ -34,7 +34,7 @@ public class BooksAppl {
             sumPrice += shelf[i].getCountPages() * shelf[i].getPricePerPage();
         }
 
-        System.out.printf("total price = " + sumPrice);
+        System.out.println("total price = " + sumPrice);
     }
 }
 
